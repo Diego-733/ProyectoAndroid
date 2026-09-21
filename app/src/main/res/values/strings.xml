@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Asistencia Alumno</string>
+    <string name="control_asistencia">Control de asistencia</string>
+    <string name="app_alumno">Aplicación del alumno</string>
+    <string name="bienvenida_titulo">Registra tu asistencia</string>
+    <string name="bienvenida_descripcion">Ingresa tus datos y el código de cuatro dígitos que muestra el profesor. La sesión debe estar abierta.</string>
+    <string name="registrar_asistencia">Registrar asistencia</string>
+    <string name="registrando">Registrando…</string>
+    <string name="necesitas_codigo">Necesitas el código de una sesión activa.</string>
+    <string name="volver">← Volver</string>
+    <string name="registro_titulo">Datos del alumno</string>
+    <string name="registro_descripcion">Completa todos los campos para registrar tu asistencia.</string>
+    <string name="identificador_hint">Identificador del alumno</string>
+    <string name="identificador_ayuda">5 a 20 caracteres, sin puntos ni espacios</string>
+    <string name="nombre_hint">Nombre completo</string>
+    <string name="codigo_hint">Código de sesión</string>
+    <string name="codigo_ayuda">Código numérico de 4 dígitos</string>
+    <string name="registro_aviso">Solo puedes registrarte una vez en cada sesión.</string>
+    <string name="error_identificador">Usa entre 5 y 20 letras, números o guiones.</string>
+    <string name="error_nombre">Ingresa un nombre de entre 2 y 80 caracteres.</string>
+    <string name="error_codigo_formato">El código debe contener exactamente 4 números.</string>
+    <string name="error_sesion_no_encontrada">Sesión no encontrada.</string>
+    <string name="error_sesion_cerrada">La sesión está cerrada.</string>
+    <string name="error_alumno_duplicado">Ya registró asistencia en esta sesión.</string>
+    <string name="error_sin_conexion">Sin conexión. Revisa tu acceso a Internet e inténtalo nuevamente.</string>
+    <string name="error_permiso_firebase">Firebase rechazó la operación. Revisa las reglas de la base de datos.</string>
+    <string name="error_desconocido">No fue posible registrar la asistencia. Inténtalo nuevamente.</string>
+    <string name="registro_exitoso">¡Asistencia registrada!</string>
+    <string name="registro_exitoso_descripcion">Tu registro fue guardado correctamente y el profesor podrá verlo en su lista.</string>
+    <string name="curso_etiqueta">CURSO</string>
+    <string name="codigo_etiqueta">CÓDIGO</string>
+    <string name="hora_etiqueta">HORA DE REGISTRO</string>
+    <string name="volver_inicio">Volver al inicio</string>
+    <string name="registrar_otro">Registrar otro alumno</string>
+    <string name="valor_no_disponible">No disponible</string>
+</resources>

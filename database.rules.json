@@ -1,0 +1,9 @@
+{
+  "rules": {
+    "sesiones": {
+      ".read": true,
+      ".write": true,
+      ".indexOn": ["codigo"]
+    }
+  }
+}

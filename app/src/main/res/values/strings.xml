@@ -10,13 +10,13 @@
     <string name="volver">← Volver</string>
     <string name="registro_titulo">Datos del alumno</string>
     <string name="registro_descripcion">Completa todos los campos para registrar tu asistencia.</string>
-    <string name="identificador_hint">Identificador del alumno</string>
-    <string name="identificador_ayuda">5 a 20 caracteres, sin puntos ni espacios</string>
+    <string name="identificador_hint">RUT del alumno</string>
+    <string name="identificador_ayuda">Puedes escribirlo con o sin puntos y guion</string>
     <string name="nombre_hint">Nombre completo</string>
     <string name="codigo_hint">Código de sesión</string>
     <string name="codigo_ayuda">Código numérico de 4 dígitos</string>
     <string name="registro_aviso">Solo puedes registrarte una vez en cada sesión.</string>
-    <string name="error_identificador">Usa entre 5 y 20 letras, números o guiones.</string>
+    <string name="error_identificador">Ingresa un RUT chileno válido.</string>
     <string name="error_nombre">Ingresa un nombre de entre 2 y 80 caracteres.</string>
     <string name="error_codigo_formato">El código debe contener exactamente 4 números.</string>
     <string name="error_sesion_no_encontrada">Sesión no encontrada.</string>

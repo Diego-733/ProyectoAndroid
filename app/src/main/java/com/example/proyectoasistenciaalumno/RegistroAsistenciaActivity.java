@@ -33,7 +33,9 @@ public class RegistroAsistenciaActivity extends AppCompatActivity {
     private void intentarRegistro() {
         limpiarErrores();
 
-        String identificador = texto(binding.etIdentificador);
+        String identificador = ValidadorRegistro.normalizarRut(
+                texto(binding.etIdentificador)
+        );
         String nombre = texto(binding.etNombre);
         String codigo = texto(binding.etCodigo);
 
@@ -54,6 +56,9 @@ public class RegistroAsistenciaActivity extends AppCompatActivity {
         if (!formularioValido) {
             return;
         }
+
+        binding.etIdentificador.setText(identificador);
+        binding.etIdentificador.setSelection(identificador.length());
 
         if (!hayConexionDisponible()) {
             mostrarMensaje(R.string.error_sin_conexion);

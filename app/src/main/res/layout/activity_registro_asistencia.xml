@@ -51,9 +51,10 @@
                 android:id="@+id/etIdentificador"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="text"
-                android:maxLength="20"
-                android:maxLines="1" />
+                android:inputType="textVisiblePassword"
+                android:maxLength="12"
+                android:maxLines="1"
+                android:textColor="@color/text_primary" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -70,7 +71,8 @@
                 android:layout_height="wrap_content"
                 android:inputType="textCapWords|textPersonName"
                 android:maxLength="80"
-                android:maxLines="1" />
+                android:maxLines="1"
+                android:textColor="@color/text_primary" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -89,7 +91,8 @@
                 android:digits="0123456789"
                 android:inputType="number"
                 android:maxLength="4"
-                android:maxLines="1" />
+                android:maxLines="1"
+                android:textColor="@color/text_primary" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <ProgressBar
